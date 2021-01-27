@@ -94,10 +94,10 @@
   - **Source Host** - hostname of the primary DNS
   - **Contact Email** - email for the person responsible for the zone file
   - **Serial Number** - revision number that increments with each change
-  - **Refresh Time** - time in which an update should occur
-  - **Retry Time** - time that a NS should wait on a failure
-  - **Expire Time** - time in which a zone transfer is allowed to complete
-  - **TTL** - minimum TTL for records within the zone
+  - **Refresh Time** - time in which an update should occur default value 3600 seconds(1hr)
+  - **Retry Time** - time that a NS should wait on a failure default value 600 seconds
+  - **Expire Time** - time in which a zone transfer is allowed to complete default value 86400 seconds (1day)
+  - **TTL** - minimum TTL for records within the zone default value 3600 seconds (1hr)
 
 - **IP Address Management**
 
